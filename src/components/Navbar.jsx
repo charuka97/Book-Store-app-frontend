@@ -96,10 +96,6 @@ const Navbar = () => {
                   </div>
                 )}
               </>
-            ) : token ? (
-              <Link to="/dashboard" className="border-b-2 border-primary">
-                Dashboard
-              </Link>
             ) : (
               <div className="relative inline-block text-left">
                 {/* Icon Button */}
